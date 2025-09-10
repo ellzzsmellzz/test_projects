@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <meta author="It's Me...">
+    <meta charset="UTF-8">
+        <title>Very Technical Page</title>
+</head>
+
+<body style="background-color: beige;">
+    <h1 style="font-family: verdana; color:#8b0101; font-weight: bolder"><b>Hello vro...</b></h1>
+            <hr>
+        <p style="font-family: times new roman; font-weight:bolder; background-color: #421678; color:#ffffff; font-display: block ;"><big><b><i>Click on us ...</i></b></big></p>
+
+            <a href ="https://www.tiktok.com/@callmebelly/video/7409801694449618206?lang=en">
+                <img src="cat.png" height="200" title="Click on me vro.."></a>
+        
+             <a href ="https://www.tiktok.com/@waynegg8/video/7460649931494182150" >
+                 <img src="dog.png" height="200" title="Click on me too..">
+            </a>
+
+            <a href ="https://en.wikipedia.org/wiki/Bussy" >
+                <img src="toothy.png" height="200" title="Click on me three..">
+             </a>
+
+            <a href ="https://www.tiktok.com/@friggintuffyo4/video/7480717051896548650?q=screaming%20pigeon&t=1757541032781" title="Click on me to be early..">
+                <img src="wormie.png" height="200">
+            </a>
+
+            <a href ="https://www.tiktok.com/@yeezytravis/video/7505892756905020703" title="Click on me UwU..">
+                <img src="draggy.png" height="200">
+             </a>
+
+        <hr>
+    <p style="font-family: times new roman; background-color: #421678; color:#ffffff; font-display:block"><big><b><i>so cool...</i></b></big></p>
+
+        <button id="PlayButton" onclick="playAudio(); pauseAudio();" style="font-family:fantasy; width:200px; height:80px;  background-color: #138d64; color:black; border-radius: 20px; border-width: 10px; border-color:#033f3a; font-size:larger; font-weight:bold"> 
+            Play me vro...
+        </button>
+
+            <audio id="John_Teo">
+                <source src="John Teo.mp3"> 
+             </audio>
+
+        <script>
+        PlayButton.addEventListener('click', () => {
+            if (John_Teo.paused) {
+                John_Teo.play();
+                PlayButton.textContent = "Don't stop me vro...";
+
+            } else {
+                John_Teo.pause();
+                PlayButton.textContent = 'Play me vro..';
+            }
+        });
+        </script>
+
+
+
+</body>
+</html>
